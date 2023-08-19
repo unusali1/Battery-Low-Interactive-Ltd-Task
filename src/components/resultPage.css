@@ -1,0 +1,151 @@
+.result {
+  text-align: center;
+  margin-top: 3px;
+}
+
+.table1 {
+  border: 5px solifd rgb(199, 238, 93);
+  background-color: azure;
+  width: 700px;
+  margin-left: 180px;
+}
+
+.step1-table {
+  border-spacing: 0;
+  margin-top: 25px;
+  color: rgb(12, 11, 11);
+  background-color: white;
+  padding: 5px;
+  width: 700px;
+  border-collapse: collapse;
+}
+
+.step2-table {
+  margin-top: 30px;
+  color: rgb(12, 11, 11);
+  background-color: white;
+  padding: 5px;
+  width: 700px;
+  border-collapse: collapse;
+  padding: 2px;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 15px 20px;
+  text-align: center;
+  border: 1px solid red;
+}
+
+.result-btn {
+  padding: 12px;
+  border: none;
+  background-color: rgb(216, 164, 68);
+  color: rgb(15, 10, 10);
+  border-radius: 5px;
+  font-size: medium;
+  margin-left: 450px;
+  margin-top: 30px;
+}
+
+@media (max-width: 480px) {
+  .table1 {
+    width: 280px;
+    margin-left: 0px;
+  }
+
+  .step1-table {
+    border-spacing: 0;
+    margin-top: 25px;
+    color: rgb(12, 11, 11);
+    background-color: white;
+    margin-left: 5px;
+    border-collapse: collapse;
+    width: 275px;
+    padding: 5px;
+  }
+
+  .step2-table {
+    margin-top: 30px;
+    color: rgb(12, 11, 11);
+    background-color: white;
+    margin-left: 0px;
+    border-collapse: collapse;
+    padding: 5px;
+    border-spacing: 0;
+    width: 275px;
+  }
+
+  td,
+  th {
+    display: flex;
+    flex-direction: row;
+    padding: 5px 10px;
+    text-align: center;
+    border: 1px solid red;
+  }
+
+  .result-btn {
+    padding: 12px;
+    border: none;
+    background-color: rgb(216, 164, 68);
+    color: rgb(15, 10, 10);
+    border-radius: 5px;
+    font-size: medium;
+    margin-left: 100px;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 680px) {
+  .table1 {
+    width: 280px;
+    margin-left: 0px;
+  }
+
+  .step1-table {
+    border-spacing: 0;
+    margin-top: 25px;
+    color: rgb(12, 11, 11);
+    background-color: white;
+    margin-left: 5px;
+    border-collapse: collapse;
+    width: 275px;
+    padding: 5px;
+  }
+
+  .step2-table {
+    margin-top: 30px;
+    color: rgb(12, 11, 11);
+    background-color: white;
+    margin-left: 5px;
+    border-collapse: collapse;
+    padding: 5px;
+    border-spacing: 0;
+    width: 275px;
+  }
+
+  td,
+  th {
+    display: flex;
+    flex-direction: row;
+    padding: 5px 10px;
+    text-align: center;
+    border: 1px solid red;
+  }
+
+  .result-btn {
+    padding: 12px;
+    border: none;
+    background-color: rgb(216, 164, 68);
+    color: rgb(15, 10, 10);
+    border-radius: 5px;
+    font-size: medium;
+    margin-left: 100px;
+    margin-top: 30px;
+  }
+  .form-title {
+    margin-top: 20px;
+  }
+}
